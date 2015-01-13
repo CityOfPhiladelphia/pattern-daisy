@@ -16,19 +16,19 @@
   overflow: hidden;
   margin-bottom: 1rem; }
 
-.demo .gi, .demo .demo-block {
+.demo .row, .demo .demo-block {
   background: #dddddd;
   color: gray;
   text-align: center;
   margin-bottom: 0.5em;
   padding: 1em !important; }
-  .demo .gi:nth-of-type(2n), .demo .demo-block:nth-of-type(2n) {
+  .demo .row:nth-of-type(2n), .demo .demo-block:nth-of-type(2n) {
     color: #dddddd;
     background: gray; }
-  .demo .gi .gi, .demo .demo-block .gi {
+  .demo .row .row, .demo .demo-block .gi {
     background: rgba(0, 0, 0, 0.1);
     color: #dddddd; }
-    .demo .gi .gi:nth-of-type(2n), .demo .demo-block .gi:nth-of-type(2n) {
+    .demo .row .row:nth-of-type(2n), .demo .demo-block .gi:nth-of-type(2n) {
       background: rgba(0, 0, 0, 0.3); }
 
 .demo-animate {
