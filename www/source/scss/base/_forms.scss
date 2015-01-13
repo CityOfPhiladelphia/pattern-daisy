@@ -15,6 +15,56 @@ input[type="color"],
 textarea,
 select {
   border: 2px solid $ben-franklin-blue;
-  padding:.5em;
+  padding:rem-calc(8);
   margin: 0;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  &:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: rem-calc(40);
+    height: rem-calc(40);
+    font-family: 'FontAwesome';
+    content: '\f002';
+    text-align: center;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-smooth: always;
+    background:$ben-franklin-blue;
+    color:$white;
+    font-weight:normal;
+    padding:rem-calc(8);
+  }
+
+  input[type="text"] {
+    height:rem-calc(40);
+  }
+  input[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: rem-calc(40);
+    height: rem-calc(40);
+    opacity: 0;
+    cursor: pointer;
+  }
+  &.hint p{
+    @extend %small;
+    color: $white;
+    background: $ben-franklin-blue;
+    padding: 5px;
+    text-align: right;
+    float: right;
+    display: block;
+    margin:0;
+  }
+  &.hint:before {
+    content: '';
+    width:0;
+    height:0;
+    padding:0;
+  }
 }
