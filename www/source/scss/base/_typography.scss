@@ -44,3 +44,14 @@ a:link, a:visited{
 a:hover, a:active {
   color:$mine-shaft;
 }
+
+.byline {
+  color: $manatee;
+  font-size: 80%;
+  display:block;
+}
+
+.vcard {
+  color:$mine-shaft;
+  border:0;
+}
