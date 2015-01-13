@@ -3,13 +3,9 @@
 	"htmlClass": "pl",
 	"bodyClass": "body",
 	"img": {
-		"landscape-4x3": {
-			"src": "../../images/fpo_4x3.png",
-			"alt": "4x3 Image"
-		},
-		"landscape-16x9": {
-			"src": "../../images/fpo_16x9.png",
-			"alt": "16x9 Image"
+		"logo": {
+			"src": "../../images/city-of-philadelphia-logo.png",
+			"alt": "Logo"
 		},
 		"square": {
 			"src": "../../images/fpo_square.png",

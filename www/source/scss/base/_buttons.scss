@@ -1,3 +1,14 @@
+.button {
+  text-transform:uppercase;
+  font-weight:400;
+
+  .icon {
+    display: block;
+    height: rem-calc(25);
+    position: relative;
+    font-size: rem-calc(12);
+  }
+}
 a.button:link, a.button:visited {
   color: #fff;
 }

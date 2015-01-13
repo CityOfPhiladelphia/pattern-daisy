@@ -12,8 +12,9 @@ input[type="tel"],
 input[type="time"],
 input[type="url"],
 input[type="color"],
-textarea {
+textarea,
+select {
   border: 2px solid $ben-franklin-blue;
-  padding:1.5em;
+  padding:.5em;
   margin: 0;
 }
