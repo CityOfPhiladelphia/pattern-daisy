@@ -1,7 +1,7 @@
 {
-	"title" : "Pattern Lab",
+	"title" : "City of Philadelphia Pattern Library - By Pattern Lab",
 	"htmlClass": "pl",
-	"bodyClass": "body",
+	"bodyClass": "body row",
 	"img": {
 		"logo": {
 			"src": "../../images/city-of-philadelphia-logo.png",
