@@ -87,5 +87,8 @@
 		{ }
 	],
 	"dt" : "term",
-	"dd" : "definition"
+	"dd" : "definition",
+	"ul" : {
+		"class" : "list"
+	}
 }
