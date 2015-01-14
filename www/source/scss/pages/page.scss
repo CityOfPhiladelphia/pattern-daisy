@@ -1,0 +1,10 @@
+/*|*\ sticky footer \*|*/
+#page {
+  min-height: 100%;
+  margin-bottom: -40px;
+  position: relative;
+}
+
+#page:after {
+  height: 40px;
+}
