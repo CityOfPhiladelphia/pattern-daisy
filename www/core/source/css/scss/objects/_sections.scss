@@ -5,3 +5,8 @@
 .section-title {
 	margin-bottom: $space-half;
 }
+
+[role=main] {
+	padding: 0.5em 0.5em 2em;
+	overflow: hidden;
+}
