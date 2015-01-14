@@ -1,0 +1,14 @@
+#site-wide-alert {
+  @extend %small;
+  background:$bell-yellow;
+  vertical-align:middle !important;
+  padding:rem-calc(8 0);
+
+  h2 {
+    margin:0;
+    padding:0;
+  }
+  i{
+    padding:0 10px 0 0;
+  }
+}
