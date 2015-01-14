@@ -7,6 +7,10 @@
 			"src": "../../images/city-of-philadelphia-logo.png",
 			"alt": "Logo"
 		},
+		"landscape-16x9" :{
+			"src" :"../../images/ppd.jpg",
+			"alt": "The Philadelphia Police Department"
+		},
 		"square": {
 			"src": "../../images/fpo_square.png",
 			"alt": "Square Thumbnail"

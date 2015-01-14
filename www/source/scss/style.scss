@@ -55,22 +55,24 @@
 	@import "foundation/components/offcanvas";
 	@import "foundation/components/visibility";
 
-	//utils
-	@import "utils/_placeholders";
-	@import "utils/_variables";
+//utils
+@import "utils/placeholders";
+@import "utils/variables";
+@import "utils/mixins";
 
 //base
-@import "base/_buttons";
-@import "base/_forms";
-@import "base/_typography";
+@import "base/global";
+@import "base/buttons";
+@import "base/forms";
+@import "base/typography";
 
 //partials
-@import "partials/_alerts";
+@import "partials/alerts";
 @import "partials/breadcrumbs";
-@import "partials/_divider";
-@import "partials/_footer";
-@import "partials/_panels";
-
+@import "partials/divider";
+@import "partials/footer";
+@import "partials/panels";
+@import "partials/story";
 
 
 

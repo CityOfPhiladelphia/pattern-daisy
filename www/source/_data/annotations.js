@@ -29,6 +29,11 @@ var comments = {
 		"el": ".block-hero",
 		"title" : "Hero",
 		"comment": "<p>The hero area highlights one major story using a large image and a captivating headline.</p>"
+	},
+	{
+		"el" : ".accessible",
+		"title": "Accessibility",
+		"comment" : "Adds 'Opens in new window text' for external links"
 	}
 ]
 };
