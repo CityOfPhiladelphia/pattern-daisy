@@ -712,7 +712,7 @@ $input-border-color: scale-color($iron, $lightness: -20%);
 // $inline-list-overflow: hidden;
 
 // We use this to control the list items
-// $inline-list-display: block;
+$inline-list-display: inline-block;
 
 // We use this to control any elements within list items
 // $inline-list-children-display: block;

@@ -56,19 +56,22 @@
 	@import "foundation/components/visibility";
 
 	//utils
-	@import "utils/_variables";
 	@import "utils/_placeholders";
+	@import "utils/_variables";
 
 //base
-@import "base/_typography";
-@import "base/_forms";
 @import "base/_buttons";
+@import "base/_forms";
+@import "base/_typography";
 
 //partials
-@import "partials/_panels";
-@import "partials/_divider";
 @import "partials/_alerts";
+@import "partials/breadcrumbs";
+@import "partials/_divider";
 @import "partials/_footer";
+@import "partials/_panels";
+
+
 
 
 //pages
