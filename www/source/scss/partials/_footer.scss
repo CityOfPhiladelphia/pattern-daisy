@@ -2,23 +2,36 @@ footer.site-footer {
   font-size:rem-calc(13);
   background: $ben-franklin-blue;
   text-transform: uppercase;
-  padding-top:rem-calc(10);
 
-  height:rem-calc(40);//explict height for sticky footer
+  height:auto;
 
   ul.inline-list {
     font-size:rem-calc(13);
-    float:right;
     margin:0;
     padding:0;
   }
   li{
+    margin:0;
     padding:0 0 0 10px;
+    &:first-child{
+      padding:0;
+    }
   }
   a:link, a:visited {
     color:$white;
   }
   a:hover, a:active{
     color:$mine-shaft;
+  }
+  @media #{$large-up} {
+    height:rem-calc(40);//explict height for sticky footer
+    padding-top:rem-calc(10);
+
+    .feedback{
+      text-align:center;
+    }
+    ul.inline-list{
+      float:right;
+    }
   }
 }

@@ -9,3 +9,20 @@ img {
   width:100%;
   height:auto;
 }
+
+header.site-header {
+  .logo{
+    height:75px;
+    width:auto;
+  }
+  @media #{$small-only} {
+    .search{
+      margin-bottom:rem-calc(18);
+    }
+  }
+  @media #{$medium-up} {
+    .search{
+      margin-top:rem-calc(18);
+    }
+  }
+}
