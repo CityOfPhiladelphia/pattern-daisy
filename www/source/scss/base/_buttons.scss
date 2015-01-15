@@ -1,4 +1,4 @@
-// /|\ icon position placeholder /|\ //
+// /|\ "regular" buttons /|\ //
 .button {
   text-transform:uppercase;
   font-weight:400;
@@ -50,4 +50,23 @@ a.button:link, a.button:visited {
 
 a.button:hover, a.button:active{
   background:$mine-shaft;
+}
+
+// /|\ call to action /|\ //
+.call-to-action{
+  text-align:center;
+  a {
+    .fa  {
+      color:$bell-yellow;
+    }//.fa
+    .fa-inverse, span {
+      color: $white;
+      vertical-align:top;
+      font-size:rem-calc(32);
+    }
+    &:hover, &:active {
+      color:$mine-shaft;
+    }
+
+  }//a
 }

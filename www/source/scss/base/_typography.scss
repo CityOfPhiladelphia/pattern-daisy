@@ -21,13 +21,17 @@ h6, .h6 {
 h1 .h1{
   padding:0;
   margin:rem-calc(16 0);
+  font-size:$h1-font-size;
 }
 
 h2 .h2 {
   padding:0;
   margin:rem-calc(13 0);
+  font-size:$h2-font-size;
 }
-
+.h3{
+  font-size:$h3-font-size;
+}
 /*paragraphs*/
 blockquote p {
   margin: 0 0 1em 0;
