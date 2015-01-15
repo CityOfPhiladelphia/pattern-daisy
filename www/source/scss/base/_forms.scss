@@ -83,3 +83,7 @@ textarea:focus {
     padding:0;
   }
 }
+
+#filter-list input[type="text"]{
+  border:1px solid $geyser;
+}
