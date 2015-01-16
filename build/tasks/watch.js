@@ -4,7 +4,8 @@ module.exports = function(grunt) {
 	grunt.config("watch", {
 		css: {
 			files: ["www/source/scss/**/*.scss", "www/source/scss/*.scss"],
-			tasks: ["sass", "copy:css", "shell:patternlab"],
+			// removed patternlab task because it was slow
+			tasks: ["sass", "copy:css" /*, "shell:patternlab"*/],
 			options: {
 				spawn: false,
 				livereload: true
