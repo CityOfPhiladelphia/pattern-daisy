@@ -92,7 +92,5 @@
 	],
 	"dt" : "term",
 	"dd" : "definition",
-	"ul" : {
-		"class" : "list"
-	}
+	"ulclass": "list"
 }
