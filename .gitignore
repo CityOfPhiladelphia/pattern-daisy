@@ -58,16 +58,6 @@ npm-debug.log
 www/source/css/style.css
 
 # pattern-lab files ignore public stuff
-www/public/css/*.css
-www/public/patterns/**/*.html
 www/public/patterns/**/*.mustache
-www/public/js/*.js
-www/public/images/*
-www/public/fonts/*
-www/public/index.html
-www/public/favicon.ico
-www/public/styleguide/html/styleguide.html
-www/public/data/annotations.js
 www/public/latest-change.txt
-www/public/css/images/*
 www/source/css/hbr-fonts.css
