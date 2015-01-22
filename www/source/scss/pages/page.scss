@@ -10,3 +10,22 @@
     display: block;
   }
 }
+
+.department{
+  h1{
+    margin-top:rem-calc(32);
+  }
+  p{
+    margin: rem-calc(16 0 32 0);
+    //beacuse of those crazy long department names
+    &.description {
+      word-wrap: break-word;
+      word-break: break-all;
+    }
+  }
+  @media #{$medium-up} {
+    a.button{
+      width:60%
+    }
+  }
+}
